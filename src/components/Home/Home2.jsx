@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram, AiFillMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -15,27 +15,27 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              A self-taught programmer interested in web-based application development.
+              <br />I know several programming languages, like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Javascript/Typescript, PHP, and Python, </b>
+              </i>
+              but my favorite is JavaScript.
+              <br />
+              <br />
+              frameworks that I often use, such as &nbsp;
+              <i>
+                <b className="purple">Laravel in PHP, ExpressJS in NodeJS, and Bootstrap or Tailwind</b> for the development web apps.
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and also in areas related to <b className="purple">Blockchain.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products with <b className="purple">Node.js</b> and
+              Whenever possible, I also apply my passion for developing web apps with <b className="purple">Laravel, Node.js</b> and
               <i>
                 <b className="purple"> Modern Javascript Library and Frameworks</b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js, Next.js, and more</b>
               </i>
             </p>
           </Col>
@@ -65,6 +65,11 @@ function Home2() {
               <li className="social-icons">
                 <a href="https://www.instagram.com/diaaanudi" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a href="mailto:test@example.net" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                  <AiFillMail />
                 </a>
               </li>
             </ul>
