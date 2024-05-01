@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import charairest from "../../Assets/Projects/charairest.png";
 import tunnel from "../../Assets/Projects/tunnel.png";
 import drop2share from "../../Assets/Projects/drop2share.png";
-import whatsai from "../../Assets/Projects/whatsai.jpg";
+import whatsai from "../../Assets/Projects/whatsai.png";
 
 function Projects() {
   return (
@@ -22,7 +22,7 @@ function Projects() {
               imgPath={drop2share}
               isBlog={false}
               title="Drop2Share"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="The Web Filesharing project can easily share your file around the world. build with Laravel, Bootstrap."
               ghLink="https://github.com/dianudi/drop2share"
               // demoLink="https://chatify-49.web.app/"
             />
@@ -33,7 +33,7 @@ function Projects() {
               imgPath={charairest}
               isBlog={false}
               title="CharacterAI RestAPI"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Characterai restAPI, Build with NodeJS and swagger for API documentation."
               ghLink="https://github.com/dianudi/charai-restapi"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -44,7 +44,7 @@ function Projects() {
               imgPath={whatsai}
               isBlog={false}
               title="Whatsapp AI Bot"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="My WhatsApp bot's main feature is chat with AI characters. AI characters from anime. Build with NodeJS."
               // ghLink="https://github.com/dianudi/charai-restapi"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
