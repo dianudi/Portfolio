@@ -6,7 +6,7 @@ import charairest from "../../Assets/Projects/charairest.png";
 import tunnel from "../../Assets/Projects/tunnel.png";
 import drop2share from "../../Assets/Projects/drop2share.png";
 import whatsai from "../../Assets/Projects/whatsai.png";
-
+import inertiacell from "../../Assets/Projects/inertiacell.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -17,6 +17,16 @@ function Projects() {
         </h1>
         <p style={{ color: "white" }}>Here are a few projects I've worked on recently.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={inertiacell}
+              isBlog={false}
+              title="InertialCell Landing Page"
+              description="Currently, this project is in progress."
+              ghLink="https://github.com/dianudi/inertialcell-landing"
+              demoLink="https://dianudi.github.io/inertiacell-landing"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={drop2share}
