@@ -2,12 +2,8 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-// import logo from "../Assets/logo.png";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
-import { AiFillStar, AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -29,9 +25,9 @@ function NavBar() {
     <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
       <Container>
         <Navbar.Brand href="/Portfolio" className="d-flex">
-          <a href="/Portfolio" className="main-name text-decoration-none fs-2 fw-bold">
+          <Link href="/Portfolio" className="main-name text-decoration-none fs-2 fw-bold">
             Dian
-          </a>
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -63,11 +59,11 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
-              <Nav.Link as={Link} to="/resume" onClick={() => updateExpanded(false)}>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/resum" onClick={() => updateExpanded(false)}>
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

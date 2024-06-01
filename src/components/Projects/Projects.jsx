@@ -2,11 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import charairest from "../../Assets/Projects/charairest.png";
-import tunnel from "../../Assets/Projects/tunnel.png";
-import drop2share from "../../Assets/Projects/drop2share.png";
-import whatsai from "../../Assets/Projects/whatsai.png";
-import inertiacell from "../../Assets/Projects/inertiacell.png";
+import charairest from "../../Assets/Projects/charairest.webp";
+import tunnel from "../../Assets/Projects/tunnel.webp";
+import drop2share from "../../Assets/Projects/drop2share.webp";
+import whatsai from "../../Assets/Projects/whatsai.webp";
+import inertiacell from "../../Assets/Projects/inertiacell.webp";
+import linktree from "../../Assets/Projects/linktree.webp";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -19,10 +20,20 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={linktree}
+              isBlog={false}
+              title="Linktree Clone"
+              description="Create a website like Linktree that contains a list of links and pop-up modals for sharing links to social media. Build with Vite, TailwindCSS, and AlpineJS. "
+              ghLink="https://github.com/dianudi/drop2share"
+              demoLink="https://dianudi.github.io/linktreee"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={inertiacell}
               isBlog={false}
               title="InertialCell Landing Page"
-              description="Currently, this project is in progress."
+              description="Landing page website for mobile phone repair service and electronic repair. Build with Vite as a module bundler, Tailwindcss as a CSS framework, and DaisyUI to create a beautiful  static website using these tools."
               ghLink="https://github.com/dianudi/inertialcell-landing"
               demoLink="https://dianudi.github.io/inertiacell-landing"
             />
