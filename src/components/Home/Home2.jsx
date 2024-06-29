@@ -68,7 +68,7 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a href="mailto:test@example.net" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                <a href="mailto:dian_udi@proton.me" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
                   <AiFillMail />
                 </a>
               </li>
