@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   // depending on your application, base can also be "/"
-  base: "/Portfolio/",
+  // base: "/Portfolio/",
   plugins: [react()],
   test: {
     // 👋 add the line below to add jsdom to vite
