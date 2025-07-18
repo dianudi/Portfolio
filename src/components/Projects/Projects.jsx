@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import charairest from "../../Assets/Projects/charairest.webp";
+import rtcchat from "../../Assets/Projects/rtcchat.webp";
 import tunnel from "../../Assets/Projects/tunnel.webp";
 import drop2share from "../../Assets/Projects/drop2share.webp";
 import whatsai from "../../Assets/Projects/whatsai.webp";
@@ -20,6 +20,16 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={rtcchat}
+              isBlog={false}
+              title="RTC Simple Chat App"
+              description=" A real-time chat application using WebRTC for peer-to-peer data channels and WebSockets for signaling. This allows users to chat directly with each other, supporting text messages, image sharing, voice notes, video sharing, and file sharing. "
+              ghLink="https://github.com/dianudi/rtc-chat"
+              // demoLink="https://"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={linktree}
               isBlog={false}
               title="Linktree Clone"
@@ -35,7 +45,7 @@ function Projects() {
               title="InertialCell Landing Page"
               description="Landing page website for mobile phone repair service and electronic repair. Build with Vite as a module bundler, Tailwindcss as a CSS framework, and DaisyUI to create a beautiful  static website using these tools."
               ghLink="https://github.com/dianudi/inertialcell-landing"
-              demoLink="https://dianudi.github.io/inertiacell-landing"
+              demoLink="https://inertiacell.dianudi.my.id/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -46,17 +56,6 @@ function Projects() {
               description="The Web Filesharing project can easily share your file around the world. build with Laravel, Bootstrap."
               ghLink="https://github.com/dianudi/drop2share"
               // demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={charairest}
-              isBlog={false}
-              title="CharacterAI RestAPI"
-              description="Characterai restAPI, Build with NodeJS and swagger for API documentation."
-              ghLink="https://github.com/dianudi/charai-restapi"
-              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
